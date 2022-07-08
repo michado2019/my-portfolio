@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  .home--container {
+    margin: 0 auto;
+  }
+  .home--header_navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 66px;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 2px 10px 8px #ccc;
+    background-color: #fff;
+  }
+  .profile--pix {
+    height: 70%;
+    border-radius: 50%;
+    margin-right: auto;
+  }
+  .profile--pix:hover {
+    height: 75%;
+    cursor: pointer;
+  }
+  .home--header_links {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: #111;
+  }
+  .home--header_links:hover {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.25rem;
+    background-color: #21222a;
+    padding: 0.5%;
+    margin: 0.5%;
+  }
+  .home--header_links:checked {
+    color: #d25d1e;
+  }
+  .introduction {
+    margin-left: 20%;
+    margin-top: 12%;
+    line-height: 0.3rem;
+  }
+  .personal--data {
+    margin-left: 3%;
+  }
+  .salute {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #6a6262;
+  }
+  .name {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #555252;
+  }
+  .job {
+    font-size: 1.8rem;
+    color: #555252;
+    margin-bottom: 50px;
+  }
+  .view--cv,
+  .hire--me {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 2px solid #111;
+    text-decoration: none;
+    color: #111;
+  }
+  .view--cv:hover {
+    background-color: #201f1f;
+    color: #fff;
+  }
+  .hire--me {
+    background-color: #201f1f;
+    color: #fff;
+  }
+  .hire--me:hover {
+    background-color: #fff;
+    color: #111;
+  }
+  .about--me {
+    margin-top: 15%;
+    width: 70%;
+    background-color: #fff;
+    padding: 3% 10%;
+    margin-left: -7%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #ccc;
+    line-height: 1.4rem;
+  }
+  .about--me h3,
+  h5 {
+    margin-bottom: -16px;
+    color: #201f1f;
+  }
+  .about--me p {
+    color: #404040;
+  }
+  .cv,
+  .hire {
+    padding: 7px 25px;
+    margin: 4px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+  }
+  .services {
+    margin: 2% 0;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+  }
+  .services h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    padding-top: 30px;
+  }
+  .services--div_flex {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+  .service--div_flex1,
+  .service--div_flex2,
+  .service--div_flex3 {
+    min-width: 250px;
+    height: 180px;
+    margin: 10px 10px 0;
+    display: inline-block;
+    padding-top: 50px;
+    border-radius: 15px;
+  }
+  .service--div_flex1,
+  .service--div_flex2,
+  .service--div_flex3 {
+    background-image: url("./images/background--img3.jpg");
+    background-size: cover;
+    background-size: cover;
+   
+  }
+  .service--div_flex2 {
+    background-image: url("./images/background--img.jpg");
+  
+  
+  }
+  .service--div_flex3 {
+    background-image: url("./images/background--img2.jpg");
+  }
+  .service--div_number {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 14px;
+    font-weight: 600;
+  
+  }
+  .service--div_job {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    text-shadow: 2px 4px 8px #c2c2c2;
+  
+  }
+  .service--div_read {
+    padding: 7px 15px;
+    color: #111;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 550;
+    border-radius: 6px;
+    
+  }
+  .hire--for_project {
+    background-color: #21222a;
+    padding: 50px;
+    text-align: center;
+  }
+  .hire--for_project p {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #fff;
+  }
+  .hire--for_project button {
+    padding: 10px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    font-weight: 550;
+  }
+  .hire--for_project a{
+    text-decoration: none;
+    color: #111;
+  }
+  .home--page_footer {
+    text-align: center;
+  }
+  .home--page_footer h2 {
+    color: #201f1f;
+  }
+  .home--page_footer p {
+    color: #201f1f;
+  }
+  .homePageFooter--img_div {
+    display: flex;
+    justify-content: center;
+  }
+  .homePage--footer_img {
+    width: 40px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #201f1f;
+  }
+  @media (min-width:558px) and (max-width:826px) {
+    .service--div_flex3{
+         width: 400px;
+    }
+  }
+  @media (max-width: 516px) {
+    .home--header_navbar {
+      padding: 0 20px;
+    }
+    .home--header_links {
+      font-size: 1.1rem;
+    }
+    .personal--data {
+      margin-left: 5%;
+      padding-top: 3%;
+    }
+    .salute {
+      font-size: 1.3rem;
+    }
+    .name {
+      font-size: 2rem;
+    }
+    .job {
+      font-size: 1.3rem;
+    }
+    .view--cv,
+    .hire--me {
+      padding: 6px 16px;
+      font-size: 0.9rem;
+    }
+    .cv,
+    .hire {
+      padding: 5px 20px;
+      font-size: 0.9rem;
+    }
+    .hire--for_project {
+      padding: 10px;
+    }
+    .hire--for_project p {
+      font-size: 1.3rem;
+    }
+  }
+  @media (max-width:394px) {
+      .home--header_links {
+          font-size: 0.8rem;
+        }
+  }
+  @media (max-width: 366px) {
+    .introduction {
+      text-align: center;
+    }
+    .personal--data{
+      margin-left: -55px;
+    }
+    .salute {
+      font-size: 2rem;
+      
+    }
+    .name {
+      font-size: 1.7rem;
+    }
+    .job {
+      font-size: 1.3rem;
+    }
+    .home--header_navbar {
+      padding: 0 10px;
+    }
+    .home--header_links {
+      padding-left: 10px;
+    }
+    .home--header_links:hover {
+      font-size: 0.8rem;
+    }
+  
+    .cv,
+    .hire {
+      padding: 7px 10px;
+      font-size: 0.7rem;
+      border-radius: 3px;
+    }
+    .service--div_flex1,
+    .service--div_flex2,
+    .service--div_flex3 {
+      width: 100%;
+      margin: 5px 0;
+      padding-top: 45px;
+    }
+    .service--div_flex1,.service--div_flex2,.service--div_flex3{
+      border-radius: 5px;
+    }
+    .home--page_footer h2 {
+      font-size: 1rem;
+    }
+    .home--page_footer p {
+      font-size: 0.6rem;
+    }
+    .homePage--footer_img {
+      width: 30px;
+      padding: 3px;
+    }
+  }
+  
