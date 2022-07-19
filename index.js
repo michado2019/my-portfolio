@@ -15,4 +15,9 @@ function displayMenu(){
 
 function clearMenu(){
     document.getElementById("nav--links").style.display = "none"
+   
 }
+function redisplay(){
+    document.getElementById("nav--links").style.display = "block"
+   }
+   redisplay()
